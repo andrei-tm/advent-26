@@ -3,14 +3,48 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Advent 2026</title>
-  <style>
-    body { margin: 0; min-height: 100vh; display: grid; place-items: center;
-           font-family: system-ui, sans-serif; background: #0b1d2a; color: #f4f1e8; }
-    h1 { font-size: clamp(2rem, 8vw, 4rem); margin: 0; }
-  </style>
+  <title>Advent Puzzles 2026</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- KaTeX: renders maths written between $...$ or $$...$$ -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <!-- chessboard.js styles -->
+  <link rel="stylesheet" href="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main><h1>Advent 2026</h1></main>
+  <header class="site-header">
+    <a class="site-title" href="./">Advent Puzzles <span>2026</span></a>
+    <p class="site-tagline">A new puzzle behind every door, 1–24 December</p>
+  </header>
+
+  <!-- Shown when ?preview=1 is in the address -->
+  <div id="preview-banner" class="preview-banner" hidden>
+    Preview mode: every door is open, whatever the date.
+  </div>
+
+  <!-- app.js fills this in with either the calendar or a single day -->
+  <main id="app" class="app">
+    <p class="loading">Loading puzzles…</p>
+  </main>
+
+  <footer class="site-footer">
+    Your answers are saved on this device only.
+  </footer>
+
+  <!-- Libraries (all from CDNs, no build step) -->
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> <!-- needed by chessboard.js -->
+  <script src="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+
+  <script src="app.js"></script>
 </body>
 </html>

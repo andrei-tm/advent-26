@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="A football pitch">
+  <rect width="400" height="260" fill="#2f8f46"/>
+  <g fill="#38a052">
+    <rect x="0" y="0" width="50" height="260"/><rect x="100" y="0" width="50" height="260"/>
+    <rect x="200" y="0" width="50" height="260"/><rect x="300" y="0" width="50" height="260"/>
+  </g>
+  <g fill="none" stroke="#fff" stroke-width="3">
+    <rect x="15" y="15" width="370" height="230"/>
+    <line x1="200" y1="15" x2="200" y2="245"/>
+    <circle cx="200" cy="130" r="35"/>
+    <rect x="15" y="70" width="55" height="120"/>
+    <rect x="15" y="100" width="20" height="60"/>
+    <rect x="330" y="70" width="55" height="120"/>
+    <rect x="365" y="100" width="20" height="60"/>
+    <path d="M70 105 A30 30 0 0 1 70 155"/>
+    <path d="M330 105 A30 30 0 0 0 330 155"/>
+  </g>
+  <g fill="#fff">
+    <circle cx="200" cy="130" r="3"/><circle cx="52" cy="130" r="3"/><circle cx="348" cy="130" r="3"/>
+  </g>
+</svg>

@@ -1,0 +1,117 @@
+# =====================================================================
+#  ADVENT PUZZLES — all the questions live in this file.
+# =====================================================================
+#
+#  HOW TO ADD A DAY
+#  ----------------
+#  Copy one of the days below, change the "day:" number (1 to 24),
+#  and edit the questions. Each day has three levels: easy, medium, hard.
+#
+#  Each level can have:
+#    question:  the text shown to the player (required)
+#    answers:   a list of accepted answers (required)
+#               Capital letters and extra spaces don't matter, so
+#               "Real Madrid" also accepts "real   madrid".
+#               Add every spelling you want to accept, e.g. "5" and "five".
+#    hint:      a clue the player can choose to reveal (optional)
+#    fen:       a chess position to draw as a board (optional)
+#    image:     a picture from the img/ folder, e.g. img/pitch.svg (optional)
+#
+#  TIPS
+#  ----
+#  * Use "question: |" (a bar) and put the text on the next lines,
+#    indented. Then you can type anything, including \ and : and #.
+#  * Maths goes between dollar signs: $2 + 3$ appears inline, and
+#    $$\frac{1}{2}$$ goes on its own line. (So don't use $ for money.
+#    Write "10 euros" or "£10" instead.)
+#  * Put quotes around answers that contain # or start with a symbol:
+#    "Qxf7#"
+#  * Spaces at the start of lines matter in YAML. Use spaces, never tabs,
+#    and line things up like the examples.
+#  * category must be one of: math, logic, chess, football
+#
+#  To test a day before its date, open the site with
+#  ?day=3&preview=1 at the end of the address.
+# =====================================================================
+
+year: 2026
+
+days:
+
+  # -------------------------------------------------------------------
+  - day: 1
+    category: math
+    title: Warm-up sums
+
+    easy:
+      question: |
+        What is $7 \times 8$?
+      answers: ["56", "fifty-six", "fifty six"]
+      hint: Think of 7 × 4, then double it.
+
+    medium:
+      question: |
+        Solve for $x$:
+        $$3x + 5 = 20$$
+      answers: ["5", "x = 5", "x=5"]
+      hint: First take 5 away from both sides.
+
+    hard:
+      question: |
+        Work out this sum and give your answer as a fraction:
+        $$\frac{1}{1 \cdot 2} + \frac{1}{2 \cdot 3} + \frac{1}{3 \cdot 4} + \dots + \frac{1}{9 \cdot 10}$$
+      answers: ["9/10", "0.9"]
+      hint: |
+        Notice that $\frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1}$.
+        What cancels?
+
+  # -------------------------------------------------------------------
+  - day: 2
+    category: chess
+    title: Checkmate!
+
+    easy:
+      question: |
+        White to move. Find checkmate in one move.
+      fen: 6k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - 0 1
+      answers: ["Rd8#", "Rd8", "Rd8+"]
+      hint: The black king is trapped behind its own pawns.
+
+    medium:
+      question: |
+        White to move. Find checkmate in one move.
+      fen: r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 4 4
+      answers: ["Qxf7#", "Qxf7", "Qf7#", "Qf7"]
+      hint: The weakest square in Black's camp is f7, and the bishop on c4 is aiming at it.
+
+    hard:
+      question: |
+        White to move and checkmate in two moves.
+        What is White's first move?
+      fen: 4r2k/6pp/7N/8/8/1Q6/6PP/6K1 w - - 0 1
+      answers: ["Qg8+", "Qg8"]
+      hint: Give away your queen! Then the knight finishes the job (a "smothered mate").
+
+  # -------------------------------------------------------------------
+  - day: 3
+    category: football
+    title: Kick-off
+
+    easy:
+      question: |
+        How many players does each team have on the pitch at the start of a match?
+      image: img/pitch.svg
+      answers: ["11", "eleven"]
+      hint: Count the goalkeeper too.
+
+    medium:
+      question: |
+        Which country won the 2022 FIFA World Cup in Qatar?
+      answers: ["Argentina"]
+      hint: Lionel Messi lifted the trophy.
+
+    hard:
+      question: |
+        Which country hosted (and won) the very first World Cup in 1930?
+      answers: ["Uruguay"]
+      hint: It's a small country in South America, between Brazil and Argentina.

@@ -1,0 +1,365 @@
+/* =====================================================================
+   Advent Puzzles: styles
+   Colours are defined once here, so they're easy to change.
+   ===================================================================== */
+
+:root {
+  --bg: #0f1e33;          /* night sky */
+  --bg-2: #16294a;
+  --card: #fbf7ef;        /* paper */
+  --ink: #1d2433;
+  --ink-soft: #5b6475;
+  --cream: #f4ecd8;
+  --gold: #e7b84a;
+  --right: #2e8b57;
+  --wrong: #c0392b;
+
+  /* one colour per category */
+  --math: #c8423b;
+  --logic: #7b5cc4;
+  --chess: #2f6f52;
+  --football: #c9821c;
+  --none: #4a5874;
+
+  --radius: 14px;
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Nunito', system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 20% 10%, rgba(255,255,255,.06) 0 1px, transparent 2px) 0 0 / 60px 60px,
+    radial-gradient(circle at 70% 40%, rgba(255,255,255,.05) 0 1px, transparent 2px) 0 0 / 90px 90px,
+    linear-gradient(var(--bg), var(--bg-2));
+  background-color: var(--bg-2);
+  color: var(--cream);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+a { color: inherit; }
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+/* ---------- header & footer ---------- */
+
+.site-header {
+  text-align: center;
+  padding: 32px 16px 8px;
+}
+.site-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(2rem, 7vw, 3.2rem);
+  text-decoration: none;
+  letter-spacing: -0.01em;
+}
+.site-title span { color: var(--gold); }
+.site-tagline { margin: 4px 0 0; opacity: .8; }
+
+.site-footer {
+  text-align: center;
+  font-size: .85rem;
+  opacity: .6;
+  padding: 32px 16px;
+}
+
+.preview-banner {
+  max-width: 560px;
+  margin: 12px auto 0;
+  padding: 8px 14px;
+  border: 2px dashed var(--gold);
+  border-radius: var(--radius);
+  color: var(--gold);
+  text-align: center;
+  font-weight: 700;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.loading, .countdown {
+  text-align: center;
+  font-size: 1.1rem;
+}
+.countdown { color: var(--gold); font-weight: 700; }
+
+/* ---------- the calendar ---------- */
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.door {
+  --door: var(--none);
+  position: relative;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border-radius: var(--radius);
+  background: var(--door);
+  border: 3px solid rgba(255,255,255,.18);
+  box-shadow: inset 0 0 0 6px rgba(0,0,0,.08), 0 4px 0 rgba(0,0,0,.25);
+  text-decoration: none;
+  color: #fff;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.door[data-category="math"]     { --door: var(--math); }
+.door[data-category="logic"]    { --door: var(--logic); }
+.door[data-category="chess"]    { --door: var(--chess); }
+.door[data-category="football"] { --door: var(--football); }
+
+a.door:hover, a.door:focus-visible {
+  transform: translateY(-3px) rotate(-1deg);
+  box-shadow: inset 0 0 0 6px rgba(0,0,0,.08), 0 8px 0 rgba(0,0,0,.25);
+  outline: none;
+}
+a.door:focus-visible { border-color: var(--gold); }
+
+.door-number {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 2.4rem;
+  line-height: 1;
+}
+.door-icon { font-size: 1.3rem; }
+.door-status { font-size: .85rem; opacity: .9; }
+.door-stars { letter-spacing: 2px; font-size: 1.05rem; }
+.star { opacity: .6; }
+.star--done { opacity: 1; color: var(--gold); }
+
+.door--locked {
+  background: rgba(255,255,255,.06);
+  border-style: dashed;
+  color: rgba(255,255,255,.55);
+  box-shadow: none;
+}
+.door--empty { background: rgba(255,255,255,.12); }
+.door--today { border-color: var(--gold); border-style: solid; }
+.door--today::after {
+  content: 'Today';
+  position: absolute;
+  top: -10px;
+  background: var(--gold);
+  color: var(--ink);
+  font-size: .7rem;
+  font-weight: 700;
+  padding: 1px 8px;
+  border-radius: 99px;
+}
+
+/* ---------- buttons ---------- */
+
+.button {
+  display: inline-block;
+  font: inherit;
+  font-weight: 700;
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: 0;
+  background: var(--ink);
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.button:hover { filter: brightness(1.15); }
+.button--ghost {
+  background: rgba(255,255,255,.1);
+  padding: 6px 12px;
+  font-size: .95rem;
+}
+
+/* ---------- a single day ---------- */
+
+.day-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.day-arrows { display: flex; gap: 8px; }
+
+.day-header {
+  --accent: var(--none);
+  text-align: center;
+  margin: 20px 0 16px;
+}
+.day-header[data-category="math"]     { --accent: var(--math); }
+.day-header[data-category="logic"]    { --accent: var(--logic); }
+.day-header[data-category="chess"]    { --accent: var(--chess); }
+.day-header[data-category="football"] { --accent: var(--football); }
+
+.day-badge {
+  display: inline-block;
+  margin: 0;
+  padding: 3px 12px;
+  border-radius: 99px;
+  background: var(--accent);
+  font-weight: 700;
+  font-size: .9rem;
+}
+.day-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 6vw, 2.5rem);
+  margin: 8px 0 0;
+  line-height: 1.15;
+}
+.day-intro { margin: 4px 0 0; opacity: .8; }
+
+.levels {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr); /* stop wide boards stretching the page on phones */
+  gap: 16px;
+}
+
+.level {
+  --level: #6aa36f;
+  background: var(--card);
+  color: var(--ink);
+  border-radius: var(--radius);
+  border-top: 8px solid var(--level);
+  padding: 16px 20px 20px;
+  box-shadow: 0 6px 0 rgba(0,0,0,.25);
+}
+.level--easy   { --level: #5aa469; }
+.level--medium { --level: #e0a029; }
+.level--hard   { --level: #c8423b; }
+
+.level-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 8px;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+}
+.level-tick {
+  display: none;
+  font-family: var(--font-body);
+  font-size: .9rem;
+  background: var(--right);
+  color: #fff;
+  padding: 2px 10px;
+  border-radius: 99px;
+}
+.level--solved .level-tick { display: inline-block; }
+
+.question {
+  white-space: pre-line;   /* keep the line breaks typed in questions.yaml */
+  font-size: 1.1rem;
+}
+.question .katex-display { margin: .6em 0; overflow-x: auto; overflow-y: hidden; }
+
+.question-image {
+  display: block;
+  max-width: min(100%, 420px);
+  height: auto;
+  margin: 12px auto;
+  border-radius: 10px;
+}
+
+.board-wrap { margin: 12px auto; max-width: 400px; }
+.board { width: 100%; }
+.to-move { text-align: center; margin: 6px 0 0; font-weight: 700; color: var(--ink-soft); }
+
+.answer-form {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+}
+.answer-input {
+  flex: 1;
+  min-width: 0;
+  font: inherit;
+  padding: 10px 12px;
+  border: 2px solid #d9d0bd;
+  border-radius: 10px;
+  background: #fff;
+  color: var(--ink);
+}
+.answer-input:focus { outline: none; border-color: var(--level); }
+
+.feedback { min-height: 1.5em; margin: 8px 0 0; font-weight: 700; }
+.feedback--right { color: var(--right); }
+.feedback--wrong { color: var(--wrong); }
+
+.hint { margin-top: 6px; }
+.hint summary { cursor: pointer; color: var(--ink-soft); font-weight: 700; }
+.hint-text {
+  white-space: pre-line;
+  margin-top: 6px;
+  padding: 10px 12px;
+  background: #f1e9d6;
+  border-radius: 10px;
+}
+
+.day-cheer {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin-top: 20px;
+}
+
+.locked-box, .error-box {
+  text-align: center;
+  background: rgba(255,255,255,.06);
+  border-radius: var(--radius);
+  padding: 32px 16px;
+  margin-top: 20px;
+}
+.locked-box h1 { font-family: var(--font-display); margin: 0 0 8px; }
+.locked-icon { font-size: 3rem; margin: 0; }
+.error-box pre {
+  text-align: left;
+  white-space: pre-wrap;
+  background: rgba(0,0,0,.3);
+  padding: 12px;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+.yaml-problem {
+  white-space: pre-line;
+  background: #fde8e6;
+  color: #8a1f14;
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+/* wrong-answer wobble */
+.shake { animation: shake .35s; }
+@keyframes shake {
+  25% { transform: translateX(-6px); }
+  50% { transform: translateX(6px); }
+  75% { transform: translateX(-3px); }
+}
+
+@media (max-width: 480px) {
+  .calendar { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .door-number { font-size: 1.8rem; }
+  .level { padding: 14px 14px 16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shake { animation: none; }
+  .door { transition: none; }
+}
