@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 616" width="336" height="616" role="img" aria-label="A 3 by 3 picture puzzle with one square missing and six options A to F"><defs><pattern id="stripe-red" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#d64541"/></pattern><pattern id="stripe-blue" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#2f6fd6"/></pattern><pattern id="stripe-green" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#2e9e5b"/></pattern><pattern id="stripe-yellow" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#f2c230"/></pattern><pattern id="stripe-orange" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#ef8a24"/></pattern><pattern id="stripe-purple" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#8b4fc9"/></pattern><pattern id="stripe-navy" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#24324a"/></pattern></defs><rect width="336" height="616" rx="14" fill="#f6f0e2"/>
+<rect x="16" y="16" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<rect x="36.0" y="36.0" width="28" height="28" fill="#2f6fd6"/>
+<rect x="36.0" y="36.0" width="56" height="56" fill="none" stroke="#24324a" stroke-width="3"/>
+<path d="M64.0 36.0V92.0M36.0 64.0H92.0" stroke="#24324a" stroke-width="1.5"/>
+<rect x="120" y="16" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<rect x="168.0" y="36.0" width="28" height="28" fill="#2f6fd6"/>
+<rect x="140.0" y="36.0" width="56" height="56" fill="none" stroke="#24324a" stroke-width="3"/>
+<path d="M168.0 36.0V92.0M140.0 64.0H196.0" stroke="#24324a" stroke-width="1.5"/>
+<rect x="224" y="16" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<rect x="272.0" y="64.0" width="28" height="28" fill="#2f6fd6"/>
+<rect x="244.0" y="36.0" width="56" height="56" fill="none" stroke="#24324a" stroke-width="3"/>
+<path d="M272.0 36.0V92.0M244.0 64.0H300.0" stroke="#24324a" stroke-width="1.5"/>
+<rect x="16" y="120" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<rect x="36.0" y="168.0" width="28" height="28" fill="#2f6fd6"/>
+<rect x="36.0" y="140.0" width="56" height="56" fill="none" stroke="#24324a" stroke-width="3"/>
+<path d="M64.0 140.0V196.0M36.0 168.0H92.0" stroke="#24324a" stroke-width="1.5"/>
+<rect x="120" y="120" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<rect x="140.0" y="140.0" width="28" height="28" fill="#2f6fd6"/>
+<rect x="140.0" y="140.0" width="56" height="56" fill="none" stroke="#24324a" stroke-width="3"/>
+<path d="M168.0 140.0V196.0M140.0 168.0H196.0" stroke="#24324a" stroke-width="1.5"/>
+<rect x="224" y="120" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<rect x="272.0" y="140.0" width="28" height="28" fill="#2f6fd6"/>
+<rect x="244.0" y="140.0" width="56" height="56" fill="none" stroke="#24324a" stroke-width="3"/>
+<path d="M272.0 140.0V196.0M244.0 168.0H300.0" stroke="#24324a" stroke-width="1.5"/>
+<rect x="16" y="224" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<rect x="64.0" y="272.0" width="28" height="28" fill="#2f6fd6"/>
+<rect x="36.0" y="244.0" width="56" height="56" fill="none" stroke="#24324a" stroke-width="3"/>
+<path d="M64.0 244.0V300.0M36.0 272.0H92.0" stroke="#24324a" stroke-width="1.5"/>
+<rect x="120" y="224" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<rect x="140.0" y="272.0" width="28" height="28" fill="#2f6fd6"/>
+<rect x="140.0" y="244.0" width="56" height="56" fill="none" stroke="#24324a" stroke-width="3"/>
+<path d="M168.0 244.0V300.0M140.0 272.0H196.0" stroke="#24324a" stroke-width="1.5"/>
+<rect x="224" y="224" width="96" height="96" rx="10" fill="#fff4cf" stroke="#e7b84a" stroke-width="2.5" stroke-dasharray="6 5"/><text x="272.0" y="288.0" text-anchor="middle" font-size="46" font-weight="700" fill="#c9952b" font-family="Georgia, serif">?</text>
+<text x="168.0" y="344" text-anchor="middle" font-size="16" font-weight="700" fill="#5b6475" font-family="Nunito, system-ui, sans-serif">Which one goes in the ? square</text>
+<rect x="16" y="354" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<rect x="36.0" y="374.0" width="28" height="28" fill="#2f6fd6"/>
+<rect x="36.0" y="374.0" width="56" height="56" fill="none" stroke="#24324a" stroke-width="3"/>
+<path d="M64.0 374.0V430.0M36.0 402.0H92.0" stroke="#24324a" stroke-width="1.5"/>
+<text x="64.0" y="471" text-anchor="middle" font-size="18" font-weight="800" fill="#1d2433" font-family="Nunito, system-ui, sans-serif">A</text>
+<rect x="120" y="354" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<rect x="168.0" y="374.0" width="28" height="28" fill="#2f6fd6"/>
+<rect x="140.0" y="374.0" width="56" height="56" fill="none" stroke="#24324a" stroke-width="3"/>
+<path d="M168.0 374.0V430.0M140.0 402.0H196.0" stroke="#24324a" stroke-width="1.5"/>
+<text x="168.0" y="471" text-anchor="middle" font-size="18" font-weight="800" fill="#1d2433" font-family="Nunito, system-ui, sans-serif">B</text>
+<rect x="224" y="354" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<rect x="272.0" y="402.0" width="28" height="28" fill="#2f6fd6"/>
+<rect x="244.0" y="374.0" width="56" height="56" fill="none" stroke="#24324a" stroke-width="3"/>
+<path d="M272.0 374.0V430.0M244.0 402.0H300.0" stroke="#24324a" stroke-width="1.5"/>
+<text x="272.0" y="471" text-anchor="middle" font-size="18" font-weight="800" fill="#1d2433" font-family="Nunito, system-ui, sans-serif">C</text>
+<rect x="16" y="480" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<rect x="36.0" y="528.0" width="28" height="28" fill="#2f6fd6"/>
+<rect x="36.0" y="500.0" width="56" height="56" fill="none" stroke="#24324a" stroke-width="3"/>
+<path d="M64.0 500.0V556.0M36.0 528.0H92.0" stroke="#24324a" stroke-width="1.5"/>
+<text x="64.0" y="597" text-anchor="middle" font-size="18" font-weight="800" fill="#1d2433" font-family="Nunito, system-ui, sans-serif">D</text>
+<rect x="120" y="480" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<rect x="140.0" y="500.0" width="28" height="28" fill="#d64541"/>
+<rect x="140.0" y="500.0" width="56" height="56" fill="none" stroke="#24324a" stroke-width="3"/>
+<path d="M168.0 500.0V556.0M140.0 528.0H196.0" stroke="#24324a" stroke-width="1.5"/>
+<text x="168.0" y="597" text-anchor="middle" font-size="18" font-weight="800" fill="#1d2433" font-family="Nunito, system-ui, sans-serif">E</text>
+<rect x="224" y="480" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<rect x="272.0" y="528.0" width="28" height="28" fill="#d64541"/>
+<rect x="244.0" y="500.0" width="56" height="56" fill="none" stroke="#24324a" stroke-width="3"/>
+<path d="M272.0 500.0V556.0M244.0 528.0H300.0" stroke="#24324a" stroke-width="1.5"/>
+<text x="272.0" y="597" text-anchor="middle" font-size="18" font-weight="800" fill="#1d2433" font-family="Nunito, system-ui, sans-serif">F</text>
+</svg>

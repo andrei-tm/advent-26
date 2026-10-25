@@ -115,3 +115,471 @@ days:
         Which country hosted (and won) the very first World Cup in 1930?
       answers: ["Uruguay"]
       hint: It's a small country in South America, between Brazil and Argentina.
+
+  # -------------------------------------------------------------------
+  - day: 4
+    category: math
+    title: Fraction fun
+
+    easy:
+      question: |
+        What is $\frac{1}{2} + \frac{1}{4}$?
+      answers: ["3/4", "0.75"]
+      hint: How many quarters are in one half?
+
+    medium:
+      question: |
+        What is $\frac{3}{5}$ of $40$?
+      answers: ["24"]
+      hint: First find $\frac{1}{5}$ of 40, then multiply by 3.
+
+    hard:
+      question: |
+        Work out this division and give your answer as a fraction:
+        $$\frac{2}{3} \div \frac{4}{9}$$
+      answers: ["3/2", "1.5", "1 1/2", "18/12", "6/4"]
+      hint: Dividing by a fraction is the same as multiplying by it flipped upside down.
+
+  # -------------------------------------------------------------------
+  - day: 5
+    category: math
+    title: What comes next?
+
+    easy:
+      question: |
+        What is the next number?
+        $$3,\ 7,\ 11,\ 15,\ \boxed{?}$$
+      answers: ["19"]
+      hint: How much is added each time?
+
+    medium:
+      question: |
+        What is the next number?
+        $$1,\ 1,\ 2,\ 3,\ 5,\ 8,\ \boxed{?}$$
+      answers: ["13"]
+      hint: Look at the two numbers just before each one.
+
+    hard:
+      question: |
+        What is the next number?
+        $$2,\ 6,\ 12,\ 20,\ 30,\ \boxed{?}$$
+      answers: ["42"]
+      hint: Look at the gaps between the numbers. Or try $1 \times 2$, $2 \times 3$, …
+
+  # -------------------------------------------------------------------
+  - day: 6
+    category: math
+    title: Shapes and angles
+
+    easy:
+      question: |
+        A rectangle is 7 cm long and 4 cm wide.
+        What is its perimeter (the distance all the way round) in cm?
+      answers: ["22", "22 cm", "22cm"]
+      hint: There are two long sides and two short sides.
+
+    medium:
+      question: |
+        Two angles of a triangle are $50^\circ$ and $65^\circ$.
+        How many degrees is the third angle?
+      answers: ["65", "65°", "65 degrees"]
+      hint: The three angles of any triangle add up to $180^\circ$.
+
+    hard:
+      question: |
+        A right-angled triangle has two short sides of 9 cm and 12 cm.
+        How long is the longest side, in cm?
+      answers: ["15", "15 cm", "15cm"]
+      hint: |
+        Pythagoras: $a^2 + b^2 = c^2$.
+
+  # -------------------------------------------------------------------
+  - day: 7
+    category: math
+    title: Order matters
+
+    easy:
+      question: |
+        What is $3 + 4 \times 2$?
+      answers: ["11"]
+      hint: Multiply before you add.
+
+    medium:
+      question: |
+        What is $(18 - 6) \div 3 + 2^3$?
+      answers: ["12"]
+      hint: Brackets first, then powers, then divide, then add.
+
+    hard:
+      question: |
+        What is $5 + 3 \times (2^4 - 10) \div 2$?
+      answers: ["14"]
+      hint: |
+        Inside the brackets first: $2^4 = 16$.
+
+  # -------------------------------------------------------------------
+  - day: 8
+    category: math
+    title: Story problems
+
+    easy:
+      question: |
+        Tom has 3 boxes with 12 chocolates in each box.
+        He eats 5 chocolates. How many are left?
+      answers: ["31"]
+      hint: How many chocolates were there to start with?
+
+    medium:
+      question: |
+        A train leaves at 09:45 and arrives at 12:20.
+        How many minutes does the journey take?
+      answers: ["155", "155 minutes", "155 min", "155 mins"]
+      hint: Count up to 10:00 first, then to 12:00, then to 12:20.
+
+    hard:
+      question: |
+        Three whole numbers in a row (like 4, 5, 6) add up to 72.
+        What is the largest of the three?
+      answers: ["25"]
+      hint: The middle number is exactly one third of the total.
+
+  # -------------------------------------------------------------------
+  - day: 9
+    category: math
+    title: Powers and primes
+
+    easy:
+      question: |
+        What is $2^5$?
+      answers: ["32"]
+      hint: |
+        $2^5 = 2 \times 2 \times 2 \times 2 \times 2$
+
+    medium:
+      question: |
+        What is the smallest prime number bigger than 30?
+      answers: ["31"]
+      hint: A prime number can only be divided exactly by 1 and itself.
+
+    hard:
+      question: |
+        What is the last digit of $3^{2026}$?
+      answers: ["9"]
+      hint: |
+        Look at the last digits of $3^1, 3^2, 3^3, 3^4, 3^5, \dots$: 3, 9, 7, 1, 3, …
+        They repeat in a cycle of 4.
+
+  # -------------------------------------------------------------------
+  - day: 10
+    category: math
+    title: Find x
+
+    easy:
+      question: |
+        Solve for $x$:
+        $$x + 9 = 23$$
+      answers: ["14", "x = 14", "x=14"]
+      hint: What do you add to 9 to make 23?
+
+    medium:
+      question: |
+        Solve for $x$:
+        $$4x - 7 = 2x + 9$$
+      answers: ["8", "x = 8", "x=8"]
+      hint: |
+        Take $2x$ away from both sides, then add 7 to both sides.
+
+    hard:
+      question: |
+        Ana is 3 times as old as her brother.
+        In 6 years' time she will be twice as old as him.
+        How old is Ana now?
+      answers: ["18", "18 years", "18 years old"]
+      hint: |
+        Call the brother's age $b$, so Ana is $3b$. In 6 years: $3b + 6 = 2(b + 6)$.
+
+  # ===================================================================
+  #  Days 11–20: "what's missing?" puzzles
+  #  Odd days are number puzzles, even days are picture puzzles.
+  #  The pictures are in img/matrix/ (made by tools/make_matrices.py).
+  # ===================================================================
+
+  # -------------------------------------------------------------------
+  - day: 11
+    category: math
+    title: Number grids
+
+    easy:
+      question: |
+        Each row follows the same rule. What number is missing?
+        $$\begin{array}{|c|c|c|}\hline 3 & 4 & 7 \\ \hline 5 & 6 & 11 \\ \hline 8 & 9 & \boxed{?} \\ \hline\end{array}$$
+      answers: ["17"]
+      hint: Look at how the first two numbers in a row make the third.
+
+    medium:
+      question: |
+        Each row follows the same rule. What number is missing?
+        $$\begin{array}{|c|c|c|}\hline 2 & 6 & 12 \\ \hline 3 & 7 & 21 \\ \hline 4 & 9 & \boxed{?} \\ \hline\end{array}$$
+      answers: ["36"]
+      hint: It isn't adding this time.
+
+    hard:
+      question: |
+        In this magic square every row, every column and both diagonals
+        add up to the same total. What number goes in the ? square?
+        $$\begin{array}{|c|c|c|}\hline 9 & \phantom{0} & 7 \\ \hline \phantom{0} & 6 & \phantom{0} \\ \hline 5 & \boxed{?} & 3 \\ \hline\end{array}$$
+      answers: ["10"]
+      hint: One diagonal is complete. What does it add up to?
+
+  # -------------------------------------------------------------------
+  - day: 12
+    category: logic
+    title: Shape grids
+
+    easy:
+      question: |
+        Which picture (A to F) goes in the empty square?
+      image: img/matrix/day12-easy.svg
+      answers: ["D"]
+      hint: Look at what stays the same along each row, and down each column.
+
+    medium:
+      question: |
+        Which picture (A to F) goes in the empty square?
+      image: img/matrix/day12-medium.svg
+      answers: ["B"]
+      hint: Every row has one of each shape and one of each colour.
+
+    hard:
+      question: |
+        Which picture (A to F) goes in the empty square?
+      image: img/matrix/day12-hard.svg
+      answers: ["E"]
+      hint: Count the shapes in each square. Going right adds one. So does going down.
+
+  # -------------------------------------------------------------------
+  - day: 13
+    category: math
+    title: Missing pieces
+
+    easy:
+      question: |
+        Which sign goes in the box: $+$, $-$, $\times$ or $\div$?
+        $$6 \ \boxed{?}\ 3 = 18$$
+      answers: ["×", "x", "*", "times", "multiply", "multiplied by"]
+      hint: Adding gives 9. Try something bigger!
+
+    medium:
+      question: |
+        Which digit is missing from this sum?
+        $$\begin{array}{r} 3\,\boxed{?}\,8 \\ +\ 1\,4\,7 \\ \hline 5\,3\,5 \end{array}$$
+      answers: ["8"]
+      hint: Try working out $535 - 147$.
+
+    hard:
+      question: |
+        A two-digit number times 7 gives a three-digit number that
+        starts with 3 and ends with 3. What is the two-digit number?
+        $$\boxed{?}\,\boxed{?} \times 7 = 3\,\square\,3$$
+      answers: ["49"]
+      hint: For the answer to end in 3, what must the two-digit number end in? Look at the 7 times table.
+
+  # -------------------------------------------------------------------
+  - day: 14
+    category: logic
+    title: Turning and changing
+
+    easy:
+      question: |
+        Which picture (A to F) goes in the empty square?
+      image: img/matrix/day14-easy.svg
+      answers: ["C"]
+      hint: The arrow turns a quarter turn each step along a row.
+
+    medium:
+      question: |
+        Which picture (A to F) goes in the empty square?
+      image: img/matrix/day14-medium.svg
+      answers: ["F"]
+      hint: Look at the size going across, and the filling (solid, stripy, empty) in each row.
+
+    hard:
+      question: |
+        Which picture (A to F) goes in the empty square?
+      image: img/matrix/day14-hard.svg
+      answers: ["A"]
+      hint: |
+        Compare the first two squares in a row with the third.
+        A dot appears in the third square only if it is in exactly ONE of the first two.
+
+  # -------------------------------------------------------------------
+  - day: 15
+    category: math
+    title: Number pyramids
+
+    easy:
+      question: |
+        Each brick is the sum of the two bricks underneath it.
+        What number goes at the top?
+        $$\begin{array}{ccccc} & & \boxed{\ ?\ } & & \\ & \boxed{8} & & \boxed{7} & \\ \boxed{3} & & \boxed{5} & & \boxed{2} \end{array}$$
+      answers: ["15"]
+      hint: Add the two bricks in the middle row.
+
+    medium:
+      question: |
+        Each brick is the sum of the two bricks underneath it.
+        What number is missing from the bottom row?
+        $$\begin{array}{ccccc} & & \boxed{24} & & \\ & \boxed{\phantom{00}} & & \boxed{\phantom{00}} & \\ \boxed{4} & & \boxed{\ ?\ } & & \boxed{6} \end{array}$$
+      answers: ["7"]
+      hint: |
+        The middle number is used twice on the way up, so
+        $4 + ? + ? + 6 = 24$.
+
+    hard:
+      question: |
+        Each brick is the sum of the two bricks underneath it.
+        What number is missing from the bottom row?
+        $$\begin{array}{ccccccc} & & & \boxed{30} & & & \\ & & \boxed{\phantom{00}} & & \boxed{\phantom{00}} & & \\ & \boxed{\phantom{00}} & & \boxed{\phantom{00}} & & \boxed{\phantom{00}} & \\ \boxed{2} & & \boxed{\ ?\ } & & \boxed{5} & & \boxed{1} \end{array}$$
+      answers: ["4"]
+      hint: Try a number, build the pyramid up, and see if you get 30. Too big or too small?
+
+  # -------------------------------------------------------------------
+  - day: 16
+    category: logic
+    title: Grow, shrink, count
+
+    easy:
+      question: |
+        Which picture (A to F) goes in the empty square?
+      image: img/matrix/day16-easy.svg
+      answers: ["E"]
+      hint: What happens to the size as you go along each row?
+
+    medium:
+      question: |
+        Which picture (A to F) goes in the empty square?
+      image: img/matrix/day16-medium.svg
+      answers: ["C"]
+      hint: Count the sides of each shape. Each step to the right adds one side.
+
+    hard:
+      question: |
+        Which picture (A to F) goes in the empty square?
+      image: img/matrix/day16-hard.svg
+      answers: ["B"]
+      hint: In every row AND every column, each shape, each colour and each number (1, 2, 3) appears once.
+
+  # -------------------------------------------------------------------
+  - day: 17
+    category: math
+    title: Gaps in the pattern
+
+    easy:
+      question: |
+        What number is missing?
+        $$5,\ 10,\ \boxed{?},\ 20,\ 25$$
+      answers: ["15"]
+      hint: Count in fives.
+
+    medium:
+      question: |
+        What number is missing?
+        $$2,\ 5,\ 11,\ 23,\ \boxed{?},\ 95$$
+      answers: ["47"]
+      hint: Each number is double the one before… plus a little bit.
+
+    hard:
+      question: |
+        Each row follows the same rule. What number is missing?
+        $$\begin{array}{|c|c|c|}\hline 5 & 9 & 16 \\ \hline 4 & 7 & 9 \\ \hline 6 & 11 & \boxed{?} \\ \hline\end{array}$$
+      answers: ["25"]
+      hint: Try squaring the first number in each row ($4^2 = 16$).
+
+  # -------------------------------------------------------------------
+  - day: 18
+    category: logic
+    title: Inside and outside
+
+    easy:
+      question: |
+        Which picture (A to F) goes in the empty square?
+      image: img/matrix/day18-easy.svg
+      answers: ["D"]
+      hint: Every row and every column has one star of each colour.
+
+    medium:
+      question: |
+        Which picture (A to F) goes in the empty square?
+      image: img/matrix/day18-medium.svg
+      answers: ["A"]
+      hint: The outside shape depends on the row. The inside shape depends on the column.
+
+    hard:
+      question: |
+        Which picture (A to F) goes in the empty square?
+      image: img/matrix/day18-hard.svg
+      answers: ["C"]
+      hint: Count the shapes. In each row, first square + second square = third square.
+
+  # -------------------------------------------------------------------
+  - day: 19
+    category: math
+    title: Secret symbols
+
+    easy:
+      question: |
+        Each fruit stands for a number.
+        🍎 + 🍎 = 10
+        🍎 + 🍌 = 8
+        🍌 + 🍒 = 7
+        What number is 🍒?
+      answers: ["4", "four"]
+      hint: Find 🍎 first, then 🍌.
+
+    medium:
+      question: |
+        Each picture stands for a number.
+        ⭐ + ⭐ + ⭐ = 21
+        ⭐ × 🌙 = 28
+        🌙 − ☀️ = 1
+        What is ⭐ + 🌙 + ☀️?
+      answers: ["14", "fourteen"]
+      hint: Start with ⭐. Three of them make 21.
+
+    hard:
+      question: |
+        Each picture stands for a number.
+        🎁 + 🎁 + 🔔 = 17
+        🔔 + 🔔 + 🎄 = 16
+        🎄 + 🎄 + 🎁 = 13
+        What is 🎁 + 🔔 + 🎄?
+      answers: ["17", "seventeen"]
+      hint: Try adding all three lines together. How many of each picture do you get?
+
+  # -------------------------------------------------------------------
+  - day: 20
+    category: logic
+    title: On the move
+
+    easy:
+      question: |
+        Which picture (A to F) goes in the empty square?
+      image: img/matrix/day20-easy.svg
+      answers: ["A"]
+      hint: Read the squares like a book, left to right, then the next row. The blue corner moves around clockwise.
+
+    medium:
+      question: |
+        Which picture (A to F) goes in the empty square?
+      image: img/matrix/day20-medium.svg
+      answers: ["E"]
+      hint: Think about mixing paint. Red and yellow make orange…
+
+    hard:
+      question: |
+        Which picture (A to F) goes in the empty square?
+      image: img/matrix/day20-hard.svg
+      answers: ["D"]
+      hint: |
+        Read the squares like a book. The red dot moves one step clockwise around the edge each time.
+        What does the blue dot do?

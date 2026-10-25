@@ -48,7 +48,8 @@ Doors open at midnight (your own time) on their date. To see any day now, add
 
 https://andrei-tm.github.io/advent-26/?day=2&preview=1
 
-`?preview=1` on its own opens every door on the calendar.
+`?preview=1` on its own opens every door on the calendar:
+https://andrei-tm.github.io/advent-26/?preview=1
 
 ## Running it on your computer
 
@@ -70,6 +71,8 @@ Then open http://localhost:8000.
 | `app.js` | The calendar and answer-checking logic (commented) |
 | `style.css` | Colours and layout |
 | `img/` | Pictures for questions, and the chess pieces |
+| `img/matrix/` | The colour-and-shape grid puzzles for days 12–20 |
+| `tools/make_matrices.py` | Optional: redraws the grid puzzles (`python3 tools/make_matrices.py`) and prints each answer letter |
 
 Libraries: [js-yaml](https://github.com/nodeca/js-yaml),
 [KaTeX](https://katex.org), [chessboard.js](https://chessboardjs.com) (with

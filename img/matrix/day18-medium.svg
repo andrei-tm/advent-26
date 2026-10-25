@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 616" width="336" height="616" role="img" aria-label="A 3 by 3 picture puzzle with one square missing and six options A to F"><defs><pattern id="stripe-red" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#d64541"/></pattern><pattern id="stripe-blue" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#2f6fd6"/></pattern><pattern id="stripe-green" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#2e9e5b"/></pattern><pattern id="stripe-yellow" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#f2c230"/></pattern><pattern id="stripe-orange" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#ef8a24"/></pattern><pattern id="stripe-purple" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#8b4fc9"/></pattern><pattern id="stripe-navy" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#24324a"/></pattern></defs><rect width="336" height="616" rx="14" fill="#f6f0e2"/>
+<rect x="16" y="16" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<circle cx="64.0" cy="64.0" r="34.2" fill="#fff" stroke="#24324a" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="64.0,50.4 67.6,59.0 77.0,59.8 69.8,65.9 72.0,75.0 64.0,70.1 56.0,75.0 58.2,65.9 51.0,59.8 60.4,59.0" fill="#d64541" stroke="#d64541" stroke-width="2" stroke-linejoin="round"/>
+<rect x="120" y="16" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<circle cx="168.0" cy="64.0" r="34.2" fill="#fff" stroke="#24324a" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="168.0,52.3 179.8,72.8 156.2,72.8" fill="#d64541" stroke="#d64541" stroke-width="2" stroke-linejoin="round"/>
+<rect x="224" y="16" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<circle cx="272.0" cy="64.0" r="34.2" fill="#fff" stroke="#24324a" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="272.0" cy="64.0" r="11.7" fill="#d64541" stroke="#d64541" stroke-width="2" stroke-linejoin="round"/>
+<rect x="16" y="120" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<polygon points="33.6,137.6 94.4,137.6 94.4,198.4 33.6,198.4" fill="#fff" stroke="#24324a" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="64.0,154.3 67.6,163.0 77.0,163.8 69.8,169.9 72.0,179.0 64.0,174.1 56.0,179.0 58.2,169.9 51.0,163.8 60.4,163.0" fill="#d64541" stroke="#d64541" stroke-width="2" stroke-linejoin="round"/>
+<rect x="120" y="120" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<polygon points="137.6,137.6 198.4,137.6 198.4,198.4 137.6,198.4" fill="#fff" stroke="#24324a" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="168.0,156.3 179.8,176.8 156.2,176.8" fill="#d64541" stroke="#d64541" stroke-width="2" stroke-linejoin="round"/>
+<rect x="224" y="120" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<polygon points="241.6,137.6 302.4,137.6 302.4,198.4 241.6,198.4" fill="#fff" stroke="#24324a" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="272.0" cy="168.0" r="11.7" fill="#d64541" stroke="#d64541" stroke-width="2" stroke-linejoin="round"/>
+<rect x="16" y="224" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<polygon points="64.0,234.0 102.0,272.0 64.0,310.0 26.0,272.0" fill="#fff" stroke="#24324a" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="64.0,258.4 67.6,267.0 77.0,267.8 69.8,273.9 72.0,283.0 64.0,278.1 56.0,283.0 58.2,273.9 51.0,267.8 60.4,267.0" fill="#d64541" stroke="#d64541" stroke-width="2" stroke-linejoin="round"/>
+<rect x="120" y="224" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<polygon points="168.0,234.0 206.0,272.0 168.0,310.0 130.0,272.0" fill="#fff" stroke="#24324a" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="168.0,260.3 179.8,280.8 156.2,280.8" fill="#d64541" stroke="#d64541" stroke-width="2" stroke-linejoin="round"/>
+<rect x="224" y="224" width="96" height="96" rx="10" fill="#fff4cf" stroke="#e7b84a" stroke-width="2.5" stroke-dasharray="6 5"/><text x="272.0" y="288.0" text-anchor="middle" font-size="46" font-weight="700" fill="#c9952b" font-family="Georgia, serif">?</text>
+<text x="168.0" y="344" text-anchor="middle" font-size="16" font-weight="700" fill="#5b6475" font-family="Nunito, system-ui, sans-serif">Which one goes in the ? square</text>
+<rect x="16" y="354" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<polygon points="64.0,364.0 102.0,402.0 64.0,440.0 26.0,402.0" fill="#fff" stroke="#24324a" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="64.0" cy="402.0" r="11.7" fill="#d64541" stroke="#d64541" stroke-width="2" stroke-linejoin="round"/>
+<text x="64.0" y="471" text-anchor="middle" font-size="18" font-weight="800" fill="#1d2433" font-family="Nunito, system-ui, sans-serif">A</text>
+<rect x="120" y="354" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<polygon points="168.0,364.0 206.0,402.0 168.0,440.0 130.0,402.0" fill="#fff" stroke="#24324a" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="168.0,388.4 171.6,397.0 181.0,397.8 173.8,403.9 176.0,413.0 168.0,408.1 160.0,413.0 162.2,403.9 155.0,397.8 164.4,397.0" fill="#d64541" stroke="#d64541" stroke-width="2" stroke-linejoin="round"/>
+<text x="168.0" y="471" text-anchor="middle" font-size="18" font-weight="800" fill="#1d2433" font-family="Nunito, system-ui, sans-serif">B</text>
+<rect x="224" y="354" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<polygon points="241.6,371.6 302.4,371.6 302.4,432.4 241.6,432.4" fill="#fff" stroke="#24324a" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="272.0" cy="402.0" r="11.7" fill="#d64541" stroke="#d64541" stroke-width="2" stroke-linejoin="round"/>
+<text x="272.0" y="471" text-anchor="middle" font-size="18" font-weight="800" fill="#1d2433" font-family="Nunito, system-ui, sans-serif">C</text>
+<rect x="16" y="480" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<circle cx="64.0" cy="528.0" r="34.2" fill="#fff" stroke="#24324a" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="64.0,515.0 77.0,528.0 64.0,541.0 51.0,528.0" fill="#d64541" stroke="#d64541" stroke-width="2" stroke-linejoin="round"/>
+<text x="64.0" y="597" text-anchor="middle" font-size="18" font-weight="800" fill="#1d2433" font-family="Nunito, system-ui, sans-serif">D</text>
+<rect x="120" y="480" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<polygon points="168.0,490.0 206.0,528.0 168.0,566.0 130.0,528.0" fill="#fff" stroke="#24324a" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="168.0,516.3 179.8,536.8 156.2,536.8" fill="#d64541" stroke="#d64541" stroke-width="2" stroke-linejoin="round"/>
+<text x="168.0" y="597" text-anchor="middle" font-size="18" font-weight="800" fill="#1d2433" font-family="Nunito, system-ui, sans-serif">E</text>
+<rect x="224" y="480" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<polygon points="272.0,490.0 310.0,528.0 272.0,566.0 234.0,528.0" fill="#fff" stroke="#24324a" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="272.0" cy="528.0" r="11.7" fill="#2f6fd6" stroke="#2f6fd6" stroke-width="2" stroke-linejoin="round"/>
+<text x="272.0" y="597" text-anchor="middle" font-size="18" font-weight="800" fill="#1d2433" font-family="Nunito, system-ui, sans-serif">F</text>
+</svg>

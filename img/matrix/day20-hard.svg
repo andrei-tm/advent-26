@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 616" width="336" height="616" role="img" aria-label="A 3 by 3 picture puzzle with one square missing and six options A to F"><defs><pattern id="stripe-red" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#d64541"/></pattern><pattern id="stripe-blue" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#2f6fd6"/></pattern><pattern id="stripe-green" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#2e9e5b"/></pattern><pattern id="stripe-yellow" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#f2c230"/></pattern><pattern id="stripe-orange" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#ef8a24"/></pattern><pattern id="stripe-purple" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#8b4fc9"/></pattern><pattern id="stripe-navy" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#fff"/><rect width="3.5" height="7" fill="#24324a"/></pattern></defs><rect width="336" height="616" rx="14" fill="#f6f0e2"/>
+<rect x="16" y="16" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<line x1="31.0" y1="31.0" x2="97.0" y2="31.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="31.0" y1="31.0" x2="31.0" y2="97.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="31.0" y1="53.0" x2="97.0" y2="53.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="53.0" y1="31.0" x2="53.0" y2="97.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="31.0" y1="75.0" x2="97.0" y2="75.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="75.0" y1="31.0" x2="75.0" y2="97.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="31.0" y1="97.0" x2="97.0" y2="97.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="97.0" y1="31.0" x2="97.0" y2="97.0" stroke="#b9b09c" stroke-width="1.5"/>
+<circle cx="42.0" cy="42.0" r="8" fill="#d64541"/>
+<circle cx="64.0" cy="86.0" r="8" fill="#2f6fd6"/>
+<rect x="120" y="16" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<line x1="135.0" y1="31.0" x2="201.0" y2="31.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="135.0" y1="31.0" x2="135.0" y2="97.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="135.0" y1="53.0" x2="201.0" y2="53.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="157.0" y1="31.0" x2="157.0" y2="97.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="135.0" y1="75.0" x2="201.0" y2="75.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="179.0" y1="31.0" x2="179.0" y2="97.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="135.0" y1="97.0" x2="201.0" y2="97.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="201.0" y1="31.0" x2="201.0" y2="97.0" stroke="#b9b09c" stroke-width="1.5"/>
+<circle cx="168.0" cy="42.0" r="8" fill="#d64541"/>
+<circle cx="190.0" cy="86.0" r="8" fill="#2f6fd6"/>
+<rect x="224" y="16" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<line x1="239.0" y1="31.0" x2="305.0" y2="31.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="239.0" y1="31.0" x2="239.0" y2="97.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="239.0" y1="53.0" x2="305.0" y2="53.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="261.0" y1="31.0" x2="261.0" y2="97.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="239.0" y1="75.0" x2="305.0" y2="75.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="283.0" y1="31.0" x2="283.0" y2="97.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="239.0" y1="97.0" x2="305.0" y2="97.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="305.0" y1="31.0" x2="305.0" y2="97.0" stroke="#b9b09c" stroke-width="1.5"/>
+<circle cx="294.0" cy="42.0" r="8" fill="#d64541"/>
+<circle cx="294.0" cy="64.0" r="8" fill="#2f6fd6"/>
+<rect x="16" y="120" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<line x1="31.0" y1="135.0" x2="97.0" y2="135.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="31.0" y1="135.0" x2="31.0" y2="201.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="31.0" y1="157.0" x2="97.0" y2="157.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="53.0" y1="135.0" x2="53.0" y2="201.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="31.0" y1="179.0" x2="97.0" y2="179.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="75.0" y1="135.0" x2="75.0" y2="201.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="31.0" y1="201.0" x2="97.0" y2="201.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="97.0" y1="135.0" x2="97.0" y2="201.0" stroke="#b9b09c" stroke-width="1.5"/>
+<circle cx="86.0" cy="168.0" r="8" fill="#d64541"/>
+<circle cx="86.0" cy="146.0" r="8" fill="#2f6fd6"/>
+<rect x="120" y="120" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<line x1="135.0" y1="135.0" x2="201.0" y2="135.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="135.0" y1="135.0" x2="135.0" y2="201.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="135.0" y1="157.0" x2="201.0" y2="157.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="157.0" y1="135.0" x2="157.0" y2="201.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="135.0" y1="179.0" x2="201.0" y2="179.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="179.0" y1="135.0" x2="179.0" y2="201.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="135.0" y1="201.0" x2="201.0" y2="201.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="201.0" y1="135.0" x2="201.0" y2="201.0" stroke="#b9b09c" stroke-width="1.5"/>
+<circle cx="190.0" cy="190.0" r="8" fill="#d64541"/>
+<circle cx="168.0" cy="146.0" r="8" fill="#2f6fd6"/>
+<rect x="224" y="120" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<line x1="239.0" y1="135.0" x2="305.0" y2="135.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="239.0" y1="135.0" x2="239.0" y2="201.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="239.0" y1="157.0" x2="305.0" y2="157.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="261.0" y1="135.0" x2="261.0" y2="201.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="239.0" y1="179.0" x2="305.0" y2="179.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="283.0" y1="135.0" x2="283.0" y2="201.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="239.0" y1="201.0" x2="305.0" y2="201.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="305.0" y1="135.0" x2="305.0" y2="201.0" stroke="#b9b09c" stroke-width="1.5"/>
+<circle cx="272.0" cy="190.0" r="8" fill="#d64541"/>
+<circle cx="250.0" cy="146.0" r="8" fill="#2f6fd6"/>
+<rect x="16" y="224" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<line x1="31.0" y1="239.0" x2="97.0" y2="239.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="31.0" y1="239.0" x2="31.0" y2="305.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="31.0" y1="261.0" x2="97.0" y2="261.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="53.0" y1="239.0" x2="53.0" y2="305.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="31.0" y1="283.0" x2="97.0" y2="283.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="75.0" y1="239.0" x2="75.0" y2="305.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="31.0" y1="305.0" x2="97.0" y2="305.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="97.0" y1="239.0" x2="97.0" y2="305.0" stroke="#b9b09c" stroke-width="1.5"/>
+<circle cx="42.0" cy="294.0" r="8" fill="#d64541"/>
+<circle cx="42.0" cy="272.0" r="8" fill="#2f6fd6"/>
+<rect x="120" y="224" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<line x1="135.0" y1="239.0" x2="201.0" y2="239.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="135.0" y1="239.0" x2="135.0" y2="305.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="135.0" y1="261.0" x2="201.0" y2="261.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="157.0" y1="239.0" x2="157.0" y2="305.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="135.0" y1="283.0" x2="201.0" y2="283.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="179.0" y1="239.0" x2="179.0" y2="305.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="135.0" y1="305.0" x2="201.0" y2="305.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="201.0" y1="239.0" x2="201.0" y2="305.0" stroke="#b9b09c" stroke-width="1.5"/>
+<circle cx="146.0" cy="272.0" r="8" fill="#d64541"/>
+<circle cx="146.0" cy="294.0" r="8" fill="#2f6fd6"/>
+<rect x="224" y="224" width="96" height="96" rx="10" fill="#fff4cf" stroke="#e7b84a" stroke-width="2.5" stroke-dasharray="6 5"/><text x="272.0" y="288.0" text-anchor="middle" font-size="46" font-weight="700" fill="#c9952b" font-family="Georgia, serif">?</text>
+<text x="168.0" y="344" text-anchor="middle" font-size="16" font-weight="700" fill="#5b6475" font-family="Nunito, system-ui, sans-serif">Which one goes in the ? square</text>
+<rect x="16" y="354" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<line x1="31.0" y1="369.0" x2="97.0" y2="369.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="31.0" y1="369.0" x2="31.0" y2="435.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="31.0" y1="391.0" x2="97.0" y2="391.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="53.0" y1="369.0" x2="53.0" y2="435.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="31.0" y1="413.0" x2="97.0" y2="413.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="75.0" y1="369.0" x2="75.0" y2="435.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="31.0" y1="435.0" x2="97.0" y2="435.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="97.0" y1="369.0" x2="97.0" y2="435.0" stroke="#b9b09c" stroke-width="1.5"/>
+<circle cx="42.0" cy="380.0" r="8" fill="#d64541"/>
+<circle cx="42.0" cy="424.0" r="8" fill="#2f6fd6"/>
+<text x="64.0" y="471" text-anchor="middle" font-size="18" font-weight="800" fill="#1d2433" font-family="Nunito, system-ui, sans-serif">A</text>
+<rect x="120" y="354" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<line x1="135.0" y1="369.0" x2="201.0" y2="369.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="135.0" y1="369.0" x2="135.0" y2="435.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="135.0" y1="391.0" x2="201.0" y2="391.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="157.0" y1="369.0" x2="157.0" y2="435.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="135.0" y1="413.0" x2="201.0" y2="413.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="179.0" y1="369.0" x2="179.0" y2="435.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="135.0" y1="435.0" x2="201.0" y2="435.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="201.0" y1="369.0" x2="201.0" y2="435.0" stroke="#b9b09c" stroke-width="1.5"/>
+<circle cx="168.0" cy="380.0" r="8" fill="#d64541"/>
+<circle cx="168.0" cy="424.0" r="8" fill="#2f6fd6"/>
+<text x="168.0" y="471" text-anchor="middle" font-size="18" font-weight="800" fill="#1d2433" font-family="Nunito, system-ui, sans-serif">B</text>
+<rect x="224" y="354" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<line x1="239.0" y1="369.0" x2="305.0" y2="369.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="239.0" y1="369.0" x2="239.0" y2="435.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="239.0" y1="391.0" x2="305.0" y2="391.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="261.0" y1="369.0" x2="261.0" y2="435.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="239.0" y1="413.0" x2="305.0" y2="413.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="283.0" y1="369.0" x2="283.0" y2="435.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="239.0" y1="435.0" x2="305.0" y2="435.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="305.0" y1="369.0" x2="305.0" y2="435.0" stroke="#b9b09c" stroke-width="1.5"/>
+<circle cx="250.0" cy="380.0" r="8" fill="#d64541"/>
+<circle cx="272.0" cy="380.0" r="8" fill="#2f6fd6"/>
+<text x="272.0" y="471" text-anchor="middle" font-size="18" font-weight="800" fill="#1d2433" font-family="Nunito, system-ui, sans-serif">C</text>
+<rect x="16" y="480" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<line x1="31.0" y1="495.0" x2="97.0" y2="495.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="31.0" y1="495.0" x2="31.0" y2="561.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="31.0" y1="517.0" x2="97.0" y2="517.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="53.0" y1="495.0" x2="53.0" y2="561.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="31.0" y1="539.0" x2="97.0" y2="539.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="75.0" y1="495.0" x2="75.0" y2="561.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="31.0" y1="561.0" x2="97.0" y2="561.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="97.0" y1="495.0" x2="97.0" y2="561.0" stroke="#b9b09c" stroke-width="1.5"/>
+<circle cx="42.0" cy="506.0" r="8" fill="#d64541"/>
+<circle cx="64.0" cy="550.0" r="8" fill="#2f6fd6"/>
+<text x="64.0" y="597" text-anchor="middle" font-size="18" font-weight="800" fill="#1d2433" font-family="Nunito, system-ui, sans-serif">D</text>
+<rect x="120" y="480" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<line x1="135.0" y1="495.0" x2="201.0" y2="495.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="135.0" y1="495.0" x2="135.0" y2="561.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="135.0" y1="517.0" x2="201.0" y2="517.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="157.0" y1="495.0" x2="157.0" y2="561.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="135.0" y1="539.0" x2="201.0" y2="539.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="179.0" y1="495.0" x2="179.0" y2="561.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="135.0" y1="561.0" x2="201.0" y2="561.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="201.0" y1="495.0" x2="201.0" y2="561.0" stroke="#b9b09c" stroke-width="1.5"/>
+<circle cx="168.0" cy="550.0" r="8" fill="#d64541"/>
+<circle cx="146.0" cy="506.0" r="8" fill="#2f6fd6"/>
+<text x="168.0" y="597" text-anchor="middle" font-size="18" font-weight="800" fill="#1d2433" font-family="Nunito, system-ui, sans-serif">E</text>
+<rect x="224" y="480" width="96" height="96" rx="10" fill="#fff" stroke="#d9d0bd" stroke-width="2"/>
+<line x1="239.0" y1="495.0" x2="305.0" y2="495.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="239.0" y1="495.0" x2="239.0" y2="561.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="239.0" y1="517.0" x2="305.0" y2="517.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="261.0" y1="495.0" x2="261.0" y2="561.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="239.0" y1="539.0" x2="305.0" y2="539.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="283.0" y1="495.0" x2="283.0" y2="561.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="239.0" y1="561.0" x2="305.0" y2="561.0" stroke="#b9b09c" stroke-width="1.5"/>
+<line x1="305.0" y1="495.0" x2="305.0" y2="561.0" stroke="#b9b09c" stroke-width="1.5"/>
+<circle cx="250.0" cy="528.0" r="8" fill="#d64541"/>
+<circle cx="272.0" cy="550.0" r="8" fill="#2f6fd6"/>
+<text x="272.0" y="597" text-anchor="middle" font-size="18" font-weight="800" fill="#1d2433" font-family="Nunito, system-ui, sans-serif">F</text>
+</svg>
